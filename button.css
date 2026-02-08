@@ -336,11 +336,11 @@
 }
 
 .btn-logo {
-  /* Плавный переход для всех изменений (0.3 секунды) */
+ 
   transition: transform 0.3s ease-out;
 }
 
 .btn-logo:hover {
-  /* Поднимает иконку вверх на 10px */
+ 
   transform: translateY(-10px);
 }
