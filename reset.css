@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 1920px;
+  height: 100%;
+  margin-inline: auto;     
+  
+  text-decoration: none;
+
+  background: rgb(15, 15, 15);
+
+  ul {
+
+    li {
+      list-style: none;
+    }
+  }
+
+  a {
+    text-decoration-line: none;
+    text-decoration-color: none;
+    text-decoration-style: none;
+    color: inherit;
+    outline: none;
+  }
+
+}

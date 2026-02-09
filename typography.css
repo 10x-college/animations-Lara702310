@@ -1,0 +1,97 @@
+/* h1 */
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* h4 */
+.sub-title {
+  font-size: 24px;
+  height: 36px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* h3 */
+.sub-title-small {
+  font-size: 22px;
+  height: 36px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* p */
+.paragraf-sub-title {
+  height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(103, 102, 101, 1);
+}
+
+.paragraph-base {
+  height: 54px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(129, 128, 126, 1);
+}
+
+.footer-paragraph-base {
+  height: 27px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: rgba(129, 128, 126, 1);
+}
+
+.paragraph-base_mono {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Roboto Mono";
+  font-style: unset;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* span  1   სტილი*/
+.text-content {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* span 2 სტილი */
+.text-content-small {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(129, 128, 126, 1);
+}
+
+/* <a> სტილისთვის  */
+
+.page-link {
+  height: 30px;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 1.5px;
+  color: rgba(103, 102, 101, 1);
+}
+
+/* email style */
+.input-compact {
+  width: 29.86rem;
+  height: 3.938rem;
+  background: rgba(26, 26, 26, 1);
+  border: none;
+  border-radius: 12px;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  color: #fff;
+}
