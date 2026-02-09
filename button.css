@@ -3,6 +3,7 @@
 .header-cube {
   width: 4rem;
   height: 4rem;
+  border: 4px dashed rgb(24, 22, 22);
   background-color: rgb(15, 15, 15);
   justify-self: center;
   align-self: flex-end;
@@ -144,31 +145,54 @@
   }
 }
 
-/*  Section / 'page_header' and  'models'  */
+/*  Section / 'page_header' /  'models' /  'question-and-answer-container' */
 
-
+.btn_shipping,
+.btn_returns,
+.btn_support,
+.btn_order,
 .btn_mens,
 .btn_kids,
-.btn_womens {
-  cursor: pointer;
-  height: 3.438rem;
-  border-radius: 12px;
+.btn_womens,
+.btn_all {
   font-size: 18px;
   color: rgba(179, 179, 178, 1);
   background: rgb(17, 17, 17);
   border: 1px dashed rgba(255, 255, 255, 0.15);
-}
-
-
-.btn_all {
-  color: rgba(179, 179, 178, 1);
-  background: rgb(17, 17, 17);
-  border: none;
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
+.btn_mens:hover {
+  background-color: rgb(185, 172, 113);
+  color: rgb(14, 14, 13);
+}
+.btn_kids:hover {
+  background-color: rgb(185, 172, 113);
+  color: rgb(14, 14, 13);
+}
+.btn_womens:hover {
+  background-color: rgb(185, 172, 113);
+  color: rgb(14, 14, 13);
+}
 .btn_all:hover {
+  background-color: rgb(185, 172, 113);
+  color: rgb(14, 14, 13);
+}
+.btn_shipping:hover {
+  background-color: rgb(185, 172, 113);
+  color: rgb(14, 14, 13);
+}
+.btn_returns:hover {
+  background-color: rgb(185, 172, 113);
+  color: rgb(14, 14, 13);
+}
+.btn_support:hover {
+  background-color: rgb(185, 172, 113);
+  color: rgb(14, 14, 13);
+}
+.btn_order:hover {
   background-color: rgb(185, 172, 113);
   color: rgb(14, 14, 13);
 }
@@ -186,6 +210,22 @@
 
 .btn_womens {
   width: 7.063rem;
+  height: 3.938rem;
+}
+
+.btn_order {
+  width: 8.438rem;
+  height: 3.938rem;
+}
+
+.btn_shipping {
+  width: 9.063rem;
+  height: 3.938rem;
+}
+
+.btn_returns,
+.btn_support {
+  width: 124px;
   height: 3.938rem;
 }
 
@@ -208,13 +248,10 @@
 }
 
 .btn-arrow {
-  border-radius: 12px;
-  background-color: rgba(38, 38, 38, 1);
-}
-
-.btn-arrow {
   text-decoration: none;
   border: 1px solid rgb(211, 138, 2);
+  border-radius: 12px;
+  background-color: rgba(38, 38, 38, 1);
   position: relative;
   overflow: hidden;
 }
@@ -241,58 +278,6 @@
   left: 100%;
 }
 
-.support,
-.returns,
-.shipping,
-.btn_order,
-.btn_kids,
-.btn_womens,
-.btn_mens,
-.btn_all {
-  box-shadow: 0 5px 15px 0 rgb(31, 30, 30);
-  transition: 0.5s;
-}
-
-.btn_kids:hover {
-  transform: translate(0, -3px);
-  box-shadow: 0 20px 40px 0 rgb(49, 43, 39);
-}
-
-.btn_womens:hover {
-  transform: translate(0, -3px);
-  box-shadow: 0 20px 40px 0 rgb(49, 43, 39);
-}
-
-.btn_mens:hover {
-  transform: translate(0, -3px);
-  box-shadow: 0 20px 40px 0 rgb(49, 43, 39);
-}
-
-.btn_all:hover {
-  transform: translate(0, -3px);
-  box-shadow: 0 20px 40px 0 rgb(49, 43, 39);
-}
-
-.btn_support:hover {
-  transform: translate(0, -3px);
-  box-shadow: 0 20px 40px 0 rgb(49, 43, 39);
-}
-
-.btn_returns:hover {
-  transform: translate(0, -3px);
-  box-shadow: 0 20px 40px 0 rgb(49, 43, 39);
-}
-
-.btn_shipping:hover {
-  transform: translate(0, -3px);
-  box-shadow: 0 20px 40px 0 rgb(49, 43, 39);
-}
-
-.btn_order:hover {
-  transform: translate(0, -3px);
-  box-shadow: 0 20px 40px 0 rgb(49, 43, 39);
-}
-
 .btn-wom {
   border-radius: 10px;
   color: white;
@@ -306,38 +291,8 @@
   transform: rotateZ(5deg);
 }
 
-/*  Article / question-and-answer-container  buttons */
-
-.btn_order {
-  width: 8.438rem;
-  height: 3.938rem;
-}
-
-.btn_shipping {
-  width: 9.063rem;
-  height: 3.938rem;
-}
-
-.btn_returns,
-.btn_support {
-  width: 124px;
-  height: 3.938rem;
-}
-
-.btn_order,
-.btn_shipping,
-.btn_returns,
-.btn_support {
-  border-radius: 12px;
-  font-size: 18px;
-  color: rgba(179, 179, 178, 1);
-  background: rgb(17, 17, 17);
-  border: 1px dashed rgba(255, 255, 255, 0.15);
-}
-
 
 /* Footer */
-
 
 @keyframes button-jump {
   0% {
@@ -354,7 +309,7 @@
 }
 
 .jump-btn {
-  animation: button-jump 0.6s infinite;
+  animation: button-jump 1s infinite;
 }
 
 .jump-btn:nth-child(1) {
@@ -362,24 +317,23 @@
 }
 
 .jump-btn:nth-child(2) {
-  animation-delay: 0.1s;
-}
-
-.jump-btn:nth-child(3) {
   animation-delay: 0.2s;
 }
 
-.jump-btn:nth-child() {
+.jump-btn:nth-child(3) {
   animation-delay: 0.3s;
 }
 
+.jump-btn:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
 .page-link {
-  transform: scale (1.1);
-  
+  display: inline-block;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .page-link:hover {
-  
+  transform: scale(1.1);
   text-shadow: 0 0 10px #fff, 0 0 20px #e4dce1, 0 0 30px #cbd33e;
-  
 }
