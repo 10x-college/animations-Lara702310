@@ -8,15 +8,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  width: 100%;
+  max-width: 1920px;
   height: 100%;
-
-
-  display: grid; 
-    place-items: center; 
+  margin-inline: auto;     
   
   text-decoration: none;
-  
+
   background: rgb(15, 15, 15);
 
   ul {

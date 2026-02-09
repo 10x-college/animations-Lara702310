@@ -24,7 +24,8 @@
 }
 
 .wrapper-container {
-  width: 99.75rem;
+  max-width: 99.75rem;
+  margin: 0 auto ;
   display: grid;
   row-gap: 1.25rem;
   gap: 1.25rem;
